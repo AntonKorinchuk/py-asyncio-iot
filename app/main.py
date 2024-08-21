@@ -48,7 +48,6 @@ async def main() -> None:
         ),
     ]
 
-    # run the programs
     await run_parallel(*wake_up_program)
     await run_parallel(*sleep_program)
 
